@@ -1,0 +1,124 @@
+@keyframes scale-and-return {
+  0% {
+    transform: scale(1); 
+  }
+  50% {
+    transform: scale(1.2); 
+    box-shadow: 0px 0px 2px 8px #d7cfee;
+  }
+  100% {
+    transform: scale(1); 
+  }
+}
+
+.change {
+  animation: scale-and-return 0.5s ease-in;
+}
+
+.techButton:hover{
+  box-shadow: 0px 0px 8px 4px #d7cfee;
+  cursor: pointer;
+}
+.cursordiv{
+  background: radial-gradient(circle, #846ADD, transparent);
+  mix-blend-mode: screen;
+}
+
+#home{
+  background: linear-gradient(to right, rgba(245, 245, 245, 0.8), rgba(245, 245, 245, 0.8)),url("./assets/bg.png");
+  background-position: center;
+}
+
+.swiper-button-next {
+  position: absolute;
+  right: -70px !important; /* Move it closer or farther from the right edge */
+  top: 50%;    /* Center it vertically */
+}
+
+
+.wrapper{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%); 
+}
+.circle{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: #846ADD;
+  border-radius: 50%;
+  animation: loading 1.5s cubic-bezier(.8, .5, .2, 1.4) infinite;
+  transform-origin: bottom center;
+  position: relative;
+}
+@keyframes loading{
+  0%{
+    transform: translateY(0px);
+    background-color: #846ADD;
+  }
+  50%{
+    transform: translateY(50px);
+    background-color: #ef584a;
+  }
+  100%{
+    transform: translateY(0px);
+    background-color: #846ADD;
+  }
+}
+.circle-1{
+  animation-delay: 0.1s;
+}
+.circle-2{
+  animation-delay: 0.2s;
+}
+.circle-3{
+  animation-delay: 0.3s;
+}
+.circle-4{
+  animation-delay: 0.4s;
+}
+.circle-5{
+  animation-delay: 0.5s;
+}
+.circle-6{
+  animation-delay: 0.6s;
+}
+.circle-7{
+  animation-delay: 0.7s;
+}
+.circle-8{
+  animation-delay: 0.8s;
+}
+
+
+.spinner {
+  /* Spinner size and color */
+  width: 1.5rem;
+  height: 1.5rem;
+  border-top-color: white;
+  border-left-color: white;
+  /* Additional spinner styles */
+  animation: spinner 400ms linear infinite;
+  border-bottom-color: transparent;
+  border-right-color: transparent;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 50%;  
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* Animation styles */
+@keyframes spinner {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+
+
+
+
+
