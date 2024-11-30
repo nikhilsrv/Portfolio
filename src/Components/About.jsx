@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-scroll";
-import resume from "../Nikhil_Srivastava_Resume.pdf"
+import resume from "../Nikhil_Resume.pdf"
 
 const About = () => {
 
