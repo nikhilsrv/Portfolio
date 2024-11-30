@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import myBuddy from "../assets/myBuddy.png";
+import myBuddy from "../assets/MyBuddy.png";
 import ytClone from "../assets/ytClone.png";
 import chatApp from "../assets/chatApp.png";
 import sorting from "../assets/sorting.png";
